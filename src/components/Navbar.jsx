@@ -19,18 +19,18 @@ function Navbar() {
     return (
         <>
             <nav className="flex items-center justify-between px-10 text-gray-300 pt-14 max-w-screen-2xl mx-auto">
-                <a href="/" className="cursor-pointer"><img className="h-10 w-10 md:h-12 md:w-12" src="/logo.png"  alt="logo" /></a>
+                <a href="/" className="cursor-pointer"><img className="h-10 w-16 md:h-12 md:w-24" src="/public/fn-high-resolution-logo-white-transparent.png"  alt="logo" /></a>
 
-                <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-indigo-700 rounded-xl md:flex">
+                <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-slate-800 rounded-xl md:flex">
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}
 
                     <FaEllipsisVertical />
                 
                     <div className="flex items-center space-x-6">
-                        <a href="https://github.com/onojapeter" target="_blank">
+                        <a href="">
                             <FaGithub className="text-2xl text-gray-400 cursor-pointer hover:text-gray-100" />
                         </a>
-                        <a href="mailto:onojapeter90@gmail.com">
+                        <a href="mailto:nicksalifu@gmail.com">
                             <LuMail className="text-2xl text-gray-400 cursor-pointer hover:text-gray-100" />
                         </a>
                     </div>
@@ -50,11 +50,11 @@ function Navbar() {
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}
 
                     <div className="absolute flex justify-end gap-4 bottom-7 right-6">
-                        <a href="https://github.com/onojapeter" target="_blank">
+                        <a href="">
                             <FaGithub className="text-gray-400 cursor-pointer hover:text-gray-100 h-7 w-7 text-grey-400" />
                         </a>
 
-                        <a href="mailto:onojapeter90@gmail.com">
+                        <a href="mailto:nicksalifu@gmail.com">
                             <LuMail className="text-gray-400 cursor-pointer hover:text-gray-100 h-7 w-7 text-grey-400" />
                         </a>
                     </div>

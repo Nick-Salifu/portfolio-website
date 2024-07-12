@@ -13,8 +13,8 @@ function MainContent() {
                     <h1 className="mt-4 mb-2 text-5xl font-bold leading-tight text-gray-200 uppercase md:text-6xl font-poppins">Salifu Friday Nicodemus</h1>
                 </div>
 
-                <p className="mb-10 text-base text-gray-500 uppercase font-lato">I embrace the digital realm</p>
-                <p className="max-w-3xl mb-10 text-lg text-center text-gray-400 font-lato">I can assist in creating a product, feature, or website. Take a look at my work and experience! If you're interested, I'm available for hire.</p>
+                <p className="mb-8 text-base text-gray-500 uppercase font-lato">I embrace the digital realm</p>
+                <p className="max-w-3xl mb-8 text-lg text-center text-gray-400 font-lato">I can assist in creating a product, feature, or website. Take a look at my work and experience! If you're interested, I'm available for hire.</p>
 
                 <div className="flex gap-4">
                     <a href="#Project">

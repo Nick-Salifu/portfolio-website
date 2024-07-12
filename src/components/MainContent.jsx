@@ -16,7 +16,7 @@ function MainContent() {
                 <p className="mb-8 md:mb-10 text-base text-gray-500 uppercase font-lato">I embrace the digital realm</p>
                 <p className="max-w-3xl mb-8 md:mb-10 text-lg text-center text-gray-400 font-lato">I can assist in creating a product, feature, or website. Take a look at my work and experience! If you're interested, I'm available for hire.</p>
 
-                <div className="flex gap-4 mb-4">
+                <div className="flex gap-4 mb-6 md:mb-0">
                     <a href="#Project">
                         <Button>Check my work</Button>
                     </a>

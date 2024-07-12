@@ -47,9 +47,9 @@ function Navbar() {
 
             {/* Mobile navlinks */}
             <div>
-                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-blue-500 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-6 rounded-xl z-20' : 'hidden'}`}>
+                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-slate-800 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-6 rounded-xl z-20' : 'hidden'}`}>
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}
-
+                
                     <div className="absolute flex justify-end gap-4 bottom-7 right-6">
                         <a href="">
                             <FaGithub className="text-gray-400 cursor-pointer hover:text-gray-100 h-7 w-7 text-grey-400" />

@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-10 mx-auto text-gray-300 pt-14 max-w-screen-2xl">
+            <nav className="flex items-center justify-between px-6 mx-auto text-gray-300 pt-6 max-w-screen-2xl">
                 <a href="/"><img className="w-16 h-10 md:h-12 md:w-24" src={Logo}  alt="logo" /></a>
 
                 <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-slate-800 rounded-xl md:flex">
@@ -40,7 +40,7 @@ function Navbar() {
                 {/* Menu for mobile */}
                 <div className="md:hidden">
                     <button
-                        onClick={handleClick}>{isOpen ? <FaXmark className="fixed z-50 w-8 h-8 top-14 right-10" /> : <FaBarsStaggered className="w-8 h-8 text-gray-300" />}
+                        onClick={handleClick}>{isOpen ? <FaXmark className="fixed z-50 w-8 h-8 top-14 right-8" /> : <FaBarsStaggered className="w-8 h-8 text-gray-300" />}
                     </button>
                 </div>
             </nav>

@@ -7,7 +7,7 @@ function MainContent() {
 
     return (
         <div className="px-8 mx-auto mb-10 max-w-screen-2xl md:px-12" id="Home">
-            <div className="flex flex-col items-center text-center py-36 md:py-[180px]">
+            <div className="flex flex-col items-center text-center py-32 md:py-[180px]">
                 <div className="relative flex gap-2">
                     <p className="absolute text-xl font-semibold text-white left-16 sm:left-20 -top-4 lg:-left-9 md:left-28">I<span className="mx-1 text-blue-500">'</span>m</p>
                     <h1 className="mt-4 mb-2 md:mb-4 text-5xl font-bold leading-tight text-gray-200 uppercase md:text-6xl font-poppins">Salifu Friday Nicodemus</h1>
@@ -16,7 +16,7 @@ function MainContent() {
                 <p className="mb-8 md:mb-10 text-base text-gray-500 uppercase font-lato">I embrace the digital realm</p>
                 <p className="max-w-3xl mb-8 md:mb-10 text-lg text-center text-gray-400 font-lato">I can assist in creating a product, feature, or website. Take a look at my work and experience! If you're interested, I'm available for hire.</p>
 
-                <div className="flex gap-4 mt-2 md:mt-0">
+                <div className="flex gap-4">
                     <a href="#Project">
                         <Button>Check my work</Button>
                     </a>

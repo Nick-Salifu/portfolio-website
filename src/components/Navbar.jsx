@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-6 mx-auto text-gray-300 pt-6 max-w-screen-2xl">
+            <nav className="flex items-center justify-between px-7 md:px-10 mx-auto text-gray-300 pt-7 md:pt-14 max-w-screen-2xl">
                 <a href="/"><img className="w-16 h-10 md:h-12 md:w-24" src={Logo}  alt="logo" /></a>
 
                 <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-slate-800 rounded-xl md:flex">
@@ -47,7 +47,7 @@ function Navbar() {
 
             {/* Mobile navlinks */}
             <div>
-                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-indigo-700 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-6 rounded-xl z-20' : 'hidden'}`}>
+                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-blue-500 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-6 rounded-xl z-20' : 'hidden'}`}>
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}
 
                     <div className="absolute flex justify-end gap-4 bottom-7 right-6">

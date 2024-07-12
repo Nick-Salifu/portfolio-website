@@ -20,22 +20,52 @@ function About() {
                             <div className="mb-4">
                             <h2 className="mb-6 text-lg tracking-wide text-left text-gray-200 font-lato">Languages and Technologies</h2>
                             <ul className="space-y-2 text-gray-400 font-lato">                            
-                                <li>React</li>
-                                <li>Redux</li>
-                                <li>Javascript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>TailwindCss</li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>React</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Redux</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Javascript</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>HTML</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>CSS</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>TailwindCSS</p>
+                                    </li>
                             </ul>
                            </div>
 
                             <div>
                             <h2 className="mb-6 text-lg tracking-wide text-left text-gray-200 font-lato">Tools & Methods</h2>
                             <ul className="space-y-2 text-gray-400 font-lato">
-                                <li>Git & Github</li>
-                                <li>Figma</li>
-                                <li>Vercel</li>
-                                <li>Responsive Development</li>
+                            <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Git & Github</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Figma</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Vercel</p>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <span className="h-3 w-3 border-2 border-blue-800 rounded-full"></span>
+                                        <p>Responsive Development</p>
+                                    </li>
                             </ul>
                            </div>
                         </div>

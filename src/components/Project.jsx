@@ -60,7 +60,7 @@ function Project() {
                     )}
 
                     {projectsToShow < projects.length && (
-                        <AnotherButton onClick={handleShowMore}>Show More</AnotherButton>
+                        <AnotherButton onClick={handleShowMore}>Show All</AnotherButton>
                     )}                  
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaEllipsisVertical, FaMessage, FaGithub, FaBarsStaggered, FaXmark } from "react-icons/fa6";
-import {LuMail} from "react-icons/lu";
+import { LuMail } from "react-icons/lu";
+import Logo from "../assets/Logo.png";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,8 +19,8 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-10 text-gray-300 pt-14 max-w-screen-2xl mx-auto">
-                <a href="/" className="cursor-pointer"><img className="h-10 w-16 md:h-12 md:w-24" src="/public/fn-high-resolution-logo-white-transparent.png"  alt="logo" /></a>
+            <nav className="flex items-center justify-between px-10 mx-auto text-gray-300 pt-14 max-w-screen-2xl">
+                <a href="/"><img className="w-16 h-10 md:h-12 md:w-24" src={Logo}  alt="logo" /></a>
 
                 <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-slate-800 rounded-xl md:flex">
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}

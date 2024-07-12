@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { LuMail } from "react-icons/lu";
 import { FaRegMoon } from "react-icons/fa";
 import { MdSunny } from "react-icons/md";
+import Logo from "../assets/Logo.png";
 
 function Footer() {
     const [activeButton, setActiveButton] = useState(null);
@@ -16,7 +17,7 @@ function Footer() {
             <div className="flex flex-col justify-between px-10 py-10 md:flex-row gap-y-12">
 
                 <div className="flex flex-row justify-between gap-8 md:flex-col">
-                    <a href="/" className="cursor-pointer"><img className="w-16 h-10" src="/public/fn-high-resolution-logo-white-transparent.png" alt="logo" /></a>
+                    <a href="/" className="cursor-pointer"><img className="w-16 h-10" src={Logo} alt="logo" /></a>
 
                     <div className="flex flex-row gap-3 md:flex-col ">
                         <a href="" className="flex items-center gap-2 text-gray-300 cursor-pointer hover:text-gray-100">
@@ -47,7 +48,7 @@ function Footer() {
                             <MdSunny className="text-2xl" />
                         </button>
                     </div>
-                    <div className="text-xl text-gray-300">Built by <a href="" className="text-white">Salifu Friday Nicodemus</a></div>
+                    <div className="text-xl text-gray-300">Built by : <a href="" className="text-lg font-semibold uppercase text-slate-300 hover:text-blue-400">Salifu Friday Nicodemus</a></div>
                 </div>
 
             </div>

@@ -40,14 +40,14 @@ function Navbar() {
                 {/* Menu for mobile */}
                 <div className="md:hidden">
                     <button
-                        onClick={handleClick}>{isOpen ? <FaXmark className="fixed z-50 w-8 h-8 top-14 right-8" /> : <FaBarsStaggered className="w-8 h-8 text-gray-300" />}
+                        onClick={handleClick}>{isOpen ? <FaXmark className="fixed z-50 w-8 h-8 top-8 right-7" /> : <FaBarsStaggered className="w-8 h-8 text-gray-300" />}
                     </button>
                 </div>
             </nav>
 
             {/* Mobile navlinks */}
             <div>
-                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-slate-800 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-6 rounded-xl z-20' : 'hidden'}`}>
+                <div className={`flex flex-col space-y-8 pt-24 p-8 px-20 bg-slate-800 md:hidden ${isOpen ? 'block fixed top-0 right-0 left-0 m-5 rounded-xl z-20' : 'hidden'}`}>
                     {navLinks.map(({ link, path }) => <a key={link} href={path} className="text-gray-300 uppercase hover:text-white">{link}</a>)}
                 
                     <div className="absolute flex justify-end gap-4 bottom-7 right-6">

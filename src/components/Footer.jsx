@@ -48,7 +48,7 @@ function Footer() {
                             <MdSunny className="text-2xl" />
                         </button>
                     </div>
-                    <div className="text-xl text-gray-300">Built by : <a href="" className="text-lg font-semibold uppercase text-slate-300 hover:text-blue-400">Salifu Friday Nicodemus</a></div>
+                    <div className="text-xl text-gray-300">Built by : <a href="" className="text-lg font-semibold uppercase text-slate-300 hover:text-blue-400 font-roboto">Salifu Friday Nicodemus</a></div>
                 </div>
 
             </div>

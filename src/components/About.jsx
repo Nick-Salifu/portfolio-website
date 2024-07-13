@@ -3,7 +3,7 @@ function About() {
     return (
         <div>
             <div className="px-8 mx-auto mb-[220px] max-w-screen-2xl md:px-12" id="About">
-                <h1 className="mb-20 text-3xl font-semibold text-center text-gray-300 uppercase font-roboto">About me</h1>
+                <h1 className="mb-20 text-3xl font-semibold text-center text-gray-300 uppercase font-poppins">About me</h1>
 
                 <div className="flex flex-col justify-between gap-y-10 md:flex-row ">
                     <div className="flex justify-center md:items-start w-full mx-auto max-w-[300px] md:w-[40%]">

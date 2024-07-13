@@ -7,8 +7,9 @@ export default {
   theme: { 
     extend: {
       fontFamily: {
-        'lato': 'Lato, sans-serif',
-        'poppins': 'Poppins, sans-serif',
+        'lato': ["Lato", "sans-serif"],
+        'poppins': ["Poppins", "sans-serif"],
+        'roboto': ["Roboto", "sans-serif"],
       },
 
       colors: {

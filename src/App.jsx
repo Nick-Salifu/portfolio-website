@@ -4,6 +4,7 @@ import MainContent from "./components/MainContent"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
 import Footer from "./components/Footer"
+import FeaturedProject from "./components/FeaturedProject"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <MainContent />
       <About />
+      <FeaturedProject />
       <Project />
       <Contact />
       <Footer />

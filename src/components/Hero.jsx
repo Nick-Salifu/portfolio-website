@@ -12,7 +12,7 @@ const socials = [
 
 function Hero() {
     return (
-        <div className="container flex flex-col-reverse items-center justify-center h-screen gap-10 px-5 mx-auto mb-32 text-white lg:flex-row lg:px-12">
+        <div className="container flex flex-col-reverse items-center justify-center h-screen gap-10 px-6 mx-auto mb-32 text-white lg:flex-row lg:px-12">
             <div className="flex flex-col justify-center gap-3 lg:justify-start lg:w-1/2">
                 <h1 className="text-4xl font-bold text-center lg:text-left lg:text-6xl font-roboto">Hi, I am Salifu Friday Nicodemus</h1>
                 <h3 className="text-xl text-center lg:text-2xl lg:text-left font-lato">Frontend Developer</h3>

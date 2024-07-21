@@ -2,7 +2,7 @@
 function About() {
     return (
         <div>
-            <div className="px-5 mx-auto mb-40 max-w-screen-2xl md:px-12" id="About">
+            <div className="px-6 mx-auto mb-40 max-w-screen-2xl md:px-12" id="About">
                 <h1 className="mb-12 text-3xl font-semibold text-center text-gray-300 uppercase font-poppins">About me</h1>
                     
                 <div className="container max-w-5xl mx-auto">

@@ -42,7 +42,7 @@ function Hero() {
             </div>
 
             {/* left part */}
-            <div>
+            <div className="mt-40 lg:mt-0">
                 <img className="md:w-[400px] md:h-[400px] rounded-xl" src="/avatar.jpg" alt="Nick" />
             </div>
         </div>

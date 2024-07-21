@@ -13,7 +13,7 @@ function FeaturedProject() {
     // }
 
     return (
-        <div className="grid grid-cols-[21rem_21rem_1fr] border border-gray-800 max-w-screen-2xl mx-14 rounded-lg mb-24 text-white">
+        <div className=" hidden lg:grid grid-cols-[21rem_21rem_1fr] border border-gray-800 max-w-screen-2xl mx-14 rounded-lg mb-24 text-white">
             <div className="flex flex-col border-r border-gray-600">
                 <div className="p-4 border overflow-y-hidden border-gray-600 hover:border-gray-500 hover:rounded-tl-lg">
                     <h1 className="font-bold text-xl mb-3">Project name</h1>

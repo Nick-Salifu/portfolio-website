@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-7 md:px-10 mx-auto text-gray-300 pt-7 md:pt-14 max-w-screen-2xl">
+            <nav className="flex items-center justify-between mx-auto text-gray-300 px-7 md:px-10 pt-7 md:pt-14 max-w-screen-2xl">
                 <a href="/"><img className="w-16 h-10 md:h-12 md:w-24" src={Logo}  alt="logo" /></a>
 
                 <ul className="items-center hidden px-6 py-3 mr-4 space-x-10 text-sm bg-slate-900 rounded-xl md:flex">

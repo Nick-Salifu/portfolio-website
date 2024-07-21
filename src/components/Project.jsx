@@ -24,7 +24,7 @@ function Project() {
     };
 
     return (
-        <div className="px-6 mx-auto mb-40 max-w-screen-2xl md:px-12" id="Project">
+        <div className="px-5 mx-auto mb-40 max-w-screen-2xl md:px-12" id="Project">
             <div className="flex flex-col items-center gap-6">
                 <h1 className="text-3xl font-semibold text-center text-gray-200 uppercase font-poppins">Projects</h1>
                 <p className="max-w-xl mb-10 text-lg text-center text-gray-400 font-lato">You might want to develop a website, application or discuss anything related. Feel free to leave a message below</p>

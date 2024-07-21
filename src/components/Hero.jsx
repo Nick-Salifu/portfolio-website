@@ -12,10 +12,10 @@ const socials = [
 
 function Hero() {
     return (
-        <div className="container flex flex-col-reverse items-center justify-center h-screen gap-10 px-8 mx-auto mb-32 text-white lg:flex-row lg:px-12">
+        <div className="container flex flex-col-reverse items-center justify-center h-screen gap-10 px-5 mx-auto mb-32 text-white lg:flex-row lg:px-12">
             <div className="flex flex-col justify-center gap-3 lg:justify-start lg:w-1/2">
                 <h1 className="text-4xl font-bold text-center lg:text-left lg:text-6xl font-roboto">Hi, I am Salifu Friday Nicodemus</h1>
-                <h3 className="text-lg text-center lg:text-2xl lg:text-left font-lato">Frontend Developer</h3>
+                <h3 className="text-xl text-center lg:text-2xl lg:text-left font-lato">Frontend Developer</h3>
                 <p className="mb-3 text-sm text-center font-lato lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, amet error! Natus, eligendi. Inventore, explicabo, quibusdam odio sequi placeat delectus sed amet, hic suscipit quidem commodi eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
                 <div className="flex justify-center gap-4 lg:justify-start">
@@ -43,7 +43,7 @@ function Hero() {
 
             {/* left part */}
             <div>
-                <img className="md:w-[400px] md:h-[400px] rounded-xl" loading="lazy" src="/avatar.jpg" alt="Nick" />
+                <img className="md:w-[400px] md:h-[400px] rounded-xl" src="/avatar.jpg" alt="Nick" />
             </div>
         </div>
     )

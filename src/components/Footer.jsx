@@ -14,7 +14,7 @@ function Footer() {
 
     return (
         <footer className="bg-slate-800">
-            <div className="flex flex-col justify-between px-10 py-10 md:flex-row gap-y-12">
+            <div className="flex flex-col justify-between px-5 py-10 md:flex-row gap-y-12">
 
                 <div className="flex flex-row justify-between gap-8 md:flex-col">
                     <a href="/" className="cursor-pointer"><img className="w-16 h-10" src={Logo} alt="logo" /></a>

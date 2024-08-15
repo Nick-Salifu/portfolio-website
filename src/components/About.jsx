@@ -13,60 +13,6 @@ function About() {
 
                                 <p className="text-lg text-gray-400 font-lato">My goal is to deliver, through code, unique and innovative solutions to complex problems. If my portfolio interests you, or you need an enthusiastic developer on your team, <br/> <a href="mailto:nicksalifu@gmail.com" className="text-blue-500 hover:border-b-2 hover:border-blue-500">I am available for hire</a></p>
                             </div>
-
-                            <div className="flex flex-col gap-4 mt-6 md:justify-between md:flex-row md:gap-4">
-                                <div className="mb-4">
-                                <h2 className="mb-6 text-lg tracking-wide text-left text-gray-200 font-lato">Languages and Technologies</h2>
-                                <ul className="space-y-2 text-gray-400 font-lato">                            
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>React</p>
-                                        </li>
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>Redux</p>
-                                        </li>
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>Javascript</p>
-                                        </li>
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>HTML</p>
-                                        </li>
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>CSS</p>
-                                        </li>
-                                        <li className="flex items-center gap-2">
-                                            <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                            <p>TailwindCSS</p>
-                                        </li>
-                                    </ul>   
-                                </div>
-
-                                <div>
-                                <h2 className="mb-6 text-lg tracking-wide text-left text-gray-200 font-lato">Tools & Methods</h2>
-                                <ul className="space-y-2 text-gray-400 font-lato">
-                                    <li className="flex items-center gap-2">
-                                        <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                        <p>Git & Github</p>
-                                    </li>
-                                    <li className="flex items-center gap-2">
-                                        <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                        <p>Figma</p>
-                                    </li>
-                                    <li className="flex items-center gap-2">
-                                        <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                        <p>Vercel</p>
-                                    </li>
-                                    <li className="flex items-center gap-2">
-                                        <span className="w-3 h-3 border-2 border-blue-500 rounded-full"></span>
-                                        <p>Responsive Development</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            </div>
                         </div> 
                 </div>
            </div>

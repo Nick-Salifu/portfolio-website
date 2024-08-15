@@ -5,6 +5,7 @@ import Project from "./components/Project"
 import Footer from "./components/Footer"
 import FeaturedProject from "./components/FeaturedProject"
 import Hero from "./components/Hero"
+import Tools from "./components/Tools"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Tools />
       <FeaturedProject />
       <Project />
       <Contact />

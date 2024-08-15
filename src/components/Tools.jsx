@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 import Html from "../assets/html-5-svgrepo-com.svg"
 import Css from "../assets/css-3-svgrepo-com.svg"
@@ -17,11 +17,11 @@ import Figma from "../assets/figma-svgrepo-com.svg"
 function Tools() {
     const settings = {
         infinite: true,
-        speed: 2500,
+        speed: 3000,
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3000,
         cssEase: "linear",
         responsive: [
           {

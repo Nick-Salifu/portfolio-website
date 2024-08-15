@@ -53,21 +53,21 @@ function Contact() {
             <form  onSubmit={handleSubmit} className="flex flex-col items-center mx-auto space-y-4">
                 <div className="flex flex-col w-full max-w-lg gap-2 mb-2">
                     <label className="text-sm text-gray-400" htmlFor="name">Name</label>
-                    <input value={name} onChange={(e) => setName(e.target.value)} required  type="text" id="name" name='name' placeholder="Name" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-gray-600 placeholder:text-sm placeholder:text-gray-600" />
+                    <input value={name} onChange={(e) => setName(e.target.value)} required  type="text" id="name" name='name' placeholder="Name" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-500 placeholder:text-sm placeholder:text-gray-600" />
                 </div>
                 
                 <div className="flex flex-col w-full max-w-lg gap-2 mb-2">
                 <label className="text-sm text-gray-400" htmlFor="email">Email</label>
-                <input value={email} onChange={(e) => setEmail(e.target.value)} required  type="email" id="email" name='email' placeholder="Email" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-gray-600 placeholder:text-sm placeholder:text-gray-600" />
+                <input value={email} onChange={(e) => setEmail(e.target.value)} required  type="email" id="email" name='email' placeholder="Email" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-500 placeholder:text-sm placeholder:text-gray-600" />
                 </div>
                 
                 <div className="flex flex-col w-full max-w-lg gap-2 mb-2">
                 <label className="text-sm text-gray-400" htmlFor="message">Message</label>
-                <textarea value={message} onChange={(e) => setMessage(e.target.value)} required  rows={4} type="text" name="message" id="message" placeholder="Message" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-gray-600 placeholder:text-sm placeholder:text-gray-600"></textarea>
+                <textarea value={message} onChange={(e) => setMessage(e.target.value)} required  rows={4} type="text" name="message" id="message" placeholder="Message" className="px-3 py-3 text-gray-300 bg-transparent border border-gray-700 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-500 placeholder:text-sm placeholder:text-gray-600"></textarea>
                </div> 
 
                <div className="pt-8 text-center">
-                    <Button>
+                    <Button>    
                         <div className="flex items-center gap-1">
                             
                                 {!loading ? 
@@ -75,9 +75,9 @@ function Contact() {
                                      : 
                                     (<div className='flex gap-2 cursor-not-allowed'>
                                         <p className="text-sm font-lato text-[16px]">Sending...</p>
-                                        <svg class="animate-spin h-5 w-5 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A8.004 8.004 0 014.01 4.01h-.011M20 12c0-4.418-3.582-8-8-8v4c2.764 0 5.1 1.432 6.491 3.603M4.01 19.99A8.004 8.004 0 0112.001 20v4c4.418 0 8-3.582 8-8h-4z"></path>
+                                        <svg className="animate-spin h-5 w-5 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A8.004 8.004 0 014.01 4.01h-.011M20 12c0-4.418-3.582-8-8-8v4c2.764 0 5.1 1.432 6.491 3.603M4.01 19.99A8.004 8.004 0 0112.001 20v4c4.418 0 8-3.582 8-8h-4z"></path>
                                         </svg>
                                     </div>) 
                                 }

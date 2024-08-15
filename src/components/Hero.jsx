@@ -1,13 +1,14 @@
 import { GoDownload } from "react-icons/go"
 import AnotherButton from "./AnotherButton"
 import Button from "./Button"
-import { FaFacebookF, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaXTwitter, FaLinkedinIn, FaWhatsapp } from "react-icons/fa6";
 
 
 const socials = [
     {image:  <FaFacebookF />},
     {image:  <FaLinkedinIn />},
     {image:  <FaXTwitter />},
+    {image:  <FaWhatsapp />},
 ]
 
 function Hero() {
@@ -34,9 +35,9 @@ function Hero() {
                 </div>
                 <div className="flex justify-center gap-3 mt-6 lg:justify-start">
                     {socials.map(social =>
-                        <div key={social.image} className="relative z-10 flex items-center justify-center overflow-hidden border-2 border-blue-500 rounded-full cursor-pointer h-7 w-7 before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-red before:-z-10 hover:before:w-full hover:before:bg-blue-500 before:duration-300">
+                        <button key={social.image} className="relative z-10 flex items-center justify-center overflow-hidden border-2 border-blue-500 rounded-full cursor-pointer h-7 w-7 before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-red before:-z-10 hover:before:w-full hover:before:bg-blue-500 before:duration-300">
                             {social.image}
-                       </div>
+                       </button>
                    )}   
                 </div>
             </div>

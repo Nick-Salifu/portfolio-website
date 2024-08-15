@@ -17,11 +17,11 @@ import Figma from "../assets/figma-svgrepo-com.svg"
 function Tools() {
     const settings = {
         infinite: true,
-        speed: 3000,
+        speed: 1500,
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 1500,
         cssEase: "linear",
         responsive: [
           {
@@ -52,11 +52,11 @@ function Tools() {
 
     return (
         <div className="px-8 mb-40">                              
-            <h2 className="mb-20 text-2xl tracking-wide text-center text-gray-200 font-lato">Languages and Technologies</h2>  
+            <h2 className="mb-20 text-lg font-semibold tracking-wide text-center text-gray-200  font-lato">Languages and Technologies</h2>  
                              
             <Slider {...settings}>
                 <div><img src={ReactLogo} alt="" className="md:w-20 w-14" /></div>
-                <div><img src={Js} alt="" className="md:w-24 w-14" /></div>
+                <div><img src={Js} alt="" className="md:w-24 w-14 rounded-lg" /></div>
                 <div><img src={Tw} alt="" className="md:w-24 w-14" /></div>
                 <div><img src={Redux} alt="" className="md:w-24 w-14" /></div>
                 <div><img src={Css} alt="" className="md:w-24 w-14" /></div>
@@ -64,7 +64,7 @@ function Tools() {
                 <div><img src={Figma} alt="" className="md:w-24 w-14" /></div>
                 <div><img src={Git} alt="" className="md:w-24 w-14" /></div>
                 <div><img src={Github} alt="" className="md:w-24 w-14" /></div>
-                <div><img src={Vercel} alt="" className="md:w-24 w-14" /></div>
+                <div><img src={Vercel} alt="" className="md:w-32 w-20" /></div>
             </Slider>
         </div>
     )

@@ -17,11 +17,11 @@ import Figma from "../assets/figma-svgrepo-com.svg"
 function Tools() {
     const settings = {
         infinite: true,
-        speed: 3000,
+        speed: 2500,
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2500,
         cssEase: "linear",
         responsive: [
           {
